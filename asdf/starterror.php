@@ -53,7 +53,8 @@ $mysqli = new mysqli($host, $user, $pw, $dbName);
   echo '고객님 계좌번호와 고객번호는 반드시 기억해주시기 바랍니다. <p/>';                   
   echo "고객번호ID : $id. '<br />";
   echo "계좌번호 : $accountnum. <br />";         
- }else{                                                                               
+ }
+ else{                                                                               
   echo 'fail to insert sql';    
  }
 mysqli_close($mysqli);

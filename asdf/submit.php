@@ -32,8 +32,8 @@ include"session.php";
                         $dbName = 'bank';
                         $mysqli = new mysqli($host, $user, $pw, $dbName); //mysqle로 접근하도록 설정
  
-$sql = mysql_query("SELECT accountnum, id, balance FROM account WHERE id='$ids'",$mysqli);
-$acc = mysql_query("SELECT * FROM account WHERE id='$ids'", $mysqli);
+$sql = mysql_query("SELECT  id, ibtbalans FROM user WHERE id='$ids'",$mysqli);
+$acc = mysql_query("SELECT * FROM user WHERE id='$ids'", $mysqli);
 echo "Print." ; 
 
 

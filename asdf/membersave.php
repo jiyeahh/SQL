@@ -51,7 +51,7 @@ $mysqli = new mysqli($host, $user, $pw, $dbName);
   echo 'success inserting <p/>';                                                          
   echo $name.'님 성공적으로 가입되셨습니다! <p/>';    
   echo $name.'님 아이디와 비밀번호는 반드시 기억해주시기 바랍니다. <p/>';                   
-  echo "사용자ID : $id. '<br />";
+  echo "사용자ID : $id. <br />";
   echo "사용자password : $password. <br />";
   echo "사용자명: $name. <br />";    
   echo "초기금액: $intbalans. <br />";    
